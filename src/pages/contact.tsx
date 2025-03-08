@@ -22,15 +22,11 @@ const Contact = (props: Props) => {
       <div className="container py-10">
         <div className="grid gap-6 md:grid-cols-3">
           <div className="relative mb-10 h-48">
-            <Image src="/images/map.svg" style={{ objectFit: "fill" }} className="dark:invert" alt="map" />
-            <h6 className="text-2xl font-bold">Contact with me</h6>
+            <Image src="/images/map.svg" fill={true} className="dark:invert" alt="map" />
+            <h6 className="text-2xl font-bold">Contact Me</h6>
             <p className="mt-2">I would love to hear from you. 👋</p>
-            <div className="mt-10 text-gray-400">
-              <p>3rd Floor, Abu Sayeed Market, Rampura</p>
-              <p>Dhaka, Bangladesh</p>
-
-              <p className="mt-4">+8801834507645</p>
-              <p>mostafizurhimself@gmail.com</p>
+            <div className="mt-4 text-gray-400">
+              <p>joelguzman2468@@gmail.com</p>
             </div>
           </div>
           <div className="col-span-2">

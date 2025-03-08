@@ -16,7 +16,7 @@ type Props = {
 const Portfolio = ({ imageUrl, category, title, href }: Props) => {
   return (
     <div className={classNames(styles['portfolio'], 'bg-white dark:bg-gray-700')}>
-      <Image src={imageUrl} height={384} width={512} alt={title} style={{ objectFit: 'cover' }}/>
+      <Image src={imageUrl} height={384} width={512} alt={title} />
       <div className={styles['portfolio-overlay']}>
         <span className={styles['portfolio-category']}>{category}</span>
         <Link href={href} className={styles['portfolio-title']}>

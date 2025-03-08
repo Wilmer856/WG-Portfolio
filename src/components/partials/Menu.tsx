@@ -26,17 +26,7 @@ const Menu = () => {
                     'text-primary-500': router.asPath == '/works',
                   }
                 )}>
-              Works
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog" className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/blog',
-                  }
-                )}>
-              Blog
+              Projects
             </Link>
           </li>
           <li>
@@ -122,12 +112,6 @@ const Menu = () => {
                         { 'text-primary-500': router.asPath == '/works' }
                       )}>
                     Works
-                  </Link>
-                  <Link href="/blog" className={classNames(
-                        { 'text-primary-500': router.asPath == '/blog' },
-                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600'
-                      )}>
-                    Blog
                   </Link>
                   <Link href="/contact" className={classNames(
                         { 'text-primary-500': router.asPath == '/contact' },
