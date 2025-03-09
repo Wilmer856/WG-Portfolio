@@ -19,6 +19,16 @@ const Menu = () => {
           <span className="text-primary-500">.</span>
         </Link>
         <ul className="ml-auto hidden items-center md:flex">
+        <li>
+            <Link href="/" className={classNames(
+                  'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
+                  {
+                    'text-primary-500': router.asPath == '/',
+                  }
+                )}>
+              Home
+            </Link>
+          </li>
           <li>
             <Link href="/works" className={classNames(
                   'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
@@ -107,12 +117,6 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
-                  <Link href="/works" className={classNames(
-                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600',
-                        { 'text-primary-500': router.asPath == '/works' }
-                      )}>
-                    Works
-                  </Link>
                   <Link href="/contact" className={classNames(
                         { 'text-primary-500': router.asPath == '/contact' },
                         'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600 '

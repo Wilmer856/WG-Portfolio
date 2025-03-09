@@ -78,48 +78,6 @@ const AboutSection = () => {
           </div>
         </Slider>
       </div>
-
-      {/* Overview */}
-      {/* <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
-        <div className="flex">
-          <div className="mr-5 text-gray-300">
-            <HiOutlineFire size={50} />
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold">20+</h2>
-            <p className="mt-1">Projects Completed</p>
-          </div>
-        </div>
-        <div className="flex">
-          <div className="mr-5 text-gray-300">
-            <FiCoffee size={50} />
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold">30+</h2>
-            <p className="mt-1">Cup of Coffee</p>
-          </div>
-        </div>
-
-        <div className="flex">
-          <div className="mr-5 text-gray-300">
-            <HiOutlineUsers size={50} />
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold">15+</h2>
-            <p className="mt-1">Satisfied clients</p>
-          </div>
-        </div>
-
-        <div className="flex">
-          <div className="mr-5 text-gray-300">
-            <HiOutlineChartBar size={50} />
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold">5+</h2>
-            <p className="mt-1">Years of experience</p>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };
