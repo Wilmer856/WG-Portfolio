@@ -8,7 +8,7 @@ export const works: Work[] = [
     thumbnailUrl: '/images/works/spendo.png',
     description: `Spendo is a personal finance tracking web application designed to help users manage their expenses, track spending habits, and generate insightful reports.`,
     publishedAt: '01 July 2022',
-    images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
+    images: ['/images/works/spendo-dashboard.png', '/images/works/spendo-add.png', '/images/works/spendo-reports-1.png', '/images/works/spendo-reports-2.png', '/images/works/spendo-transactions.png', '/images/works/spendo-profile.png'],
     previewUrl: '',
     featureList: [
       'User authentication with secure login and registration',
@@ -34,8 +34,8 @@ export const works: Work[] = [
         value: 'Web Development',
       },
       {
-        name: 'Skills',
-        value: 'Typescript, Next.js & Tailwind CSS',
+        name: 'Technologies',
+        value: 'Flask, Python, PostgreSQL, Bootstrap, Seaborn, Matplotlib, Pandas',
       }
     ],
   },
