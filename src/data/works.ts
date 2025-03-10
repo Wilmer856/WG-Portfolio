@@ -45,39 +45,19 @@ export const works: Work[] = [
     title: 'Countries of the World',
     category: 'Web Development',
     thumbnailUrl: '/images/works/where-in-the-world.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `Where in the World is a React-based web application that allows users to browse and explore detailed information about different countries, including population, region, capital, and neighboring nations. It also provides a dark/light mode toggle for improved accessibility and user preference.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: '',
     featureList: [
-      '100% Fluid Responsive – Fits any device perfectly',
-      'Tested on real devices',
-      'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
-      'Retina Optimized',
-      'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
-      'Social Links',
-      'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
-      'Advanced Typography',
-      'Google Fonts – 600+ Font families available',
-      'Custom Font Support',
-      'Custom Page Templates',
-      'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
-      'Custom CSS Ready',
-      'HTML5 &amp; CSS3',
-      'Easy Customization With Variable Content Sections',
-      'Custom Build Theme &amp; Page Options',
-      'SEO Ready',
+    'Search for countries in real time',
+    'Filter countries by region',
+    'Detailed country view with extended info (capital, languages, currencies)',
+    'Navigate to neighboring countries seamlessly',
+    'Dark mode and light mode toggle',
+    'Responsive design for various screen sizes',
+    'Clean and intuitive user interface',
+    'REST Countries API integration'
     ],
     attributes: [
       {
@@ -90,48 +70,28 @@ export const works: Work[] = [
       },
       {
         name: 'Technologies',
-        value: 'Flask, Python, PostgreSQL, Bootstrap, Seaborn, Matplotlib, Pandas',
-      }
+        value: 'React, REST Countries API, Context API, CSS',
+      },
     ],
   },
   {
     id: 3,
-    title: 'Animal Classification Machine Learning Model',
-    category: 'AI/ML',
+    title: 'Animal Classification ML Model',
+    category: 'AI / Machine Learning',
     thumbnailUrl: '/images/works/SafeHerd.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `This project develops a machine learning model using Python and TensorFlow to classify animals as either domestic or predators. Leveraging AI algorithms and a training dataset of animal traits, the model provides real-time classification for educational and research purposes.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: '',
     featureList: [
-      '100% Fluid Responsive – Fits any device perfectly',
-      'Tested on real devices',
-      'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
-      'Retina Optimized',
-      'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
-      'Social Links',
-      'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
-      'Advanced Typography',
-      'Google Fonts – 600+ Font families available',
-      'Custom Font Support',
-      'Custom Page Templates',
-      'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
-      'Custom CSS Ready',
-      'HTML5 &amp; CSS3',
-      'Easy Customization With Variable Content Sections',
-      'Custom Build Theme &amp; Page Options',
-      'SEO Ready',
+      'Trained using TensorFlow & Keras for accurate domestic/predator classification',
+      'Uses a curated dataset of animal traits for model training',
+      'Real-time image-based inference for quick categorization',
+      'Potential applications in agriculture, wildlife monitoring, or educational tools',
+      'Extensible architecture for additional animal classes in the future',
+      'Detailed Jupyter Notebook documenting model design and performance',
+      'REST API integration for easy front-end consumption',
+      'Scalable pipeline to handle additional training data'
     ],
     attributes: [
       {
@@ -140,53 +100,33 @@ export const works: Work[] = [
       },
       {
         name: 'Category',
-        value: 'Web Development',
+        value: 'AI / Machine Learning',
       },
       {
-        name: 'Skills',
-        value: 'Typescript, Next.js & Tailwind CSS',
+        name: 'Technologies',
+        value: 'Python, TensorFlow, Keras, Jupyter Notebook',
       }
     ],
   },
 
   {
     id: 4,
-    title: 'Workout Tracking System',
+    title: 'Workout Tracker (MERN Stack)',
     category: 'Web Development',
     thumbnailUrl: '/images/works/workout-buddy.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `A dynamic web application built using the MERN stack (MongoDB, Express.js, React, Node.js) to help users log and manage workout routines. Users can easily add, view, update, and delete workout details, providing an efficient way to track and maintain fitness goals.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: '',
     featureList: [
-      '100% Fluid Responsive – Fits any device perfectly',
-      'Tested on real devices',
-      'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
-      'Retina Optimized',
-      'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
-      'Social Links',
-      'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
-      'Advanced Typography',
-      'Google Fonts – 600+ Font families available',
-      'Custom Font Support',
-      'Custom Page Templates',
-      'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
-      'Custom CSS Ready',
-      'HTML5 &amp; CSS3',
-      'Easy Customization With Variable Content Sections',
-      'Custom Build Theme &amp; Page Options',
-      'SEO Ready',
+      'Create, read, update, and delete (CRUD) workout entries',
+      'User-friendly form for logging exercise name, reps, and load',
+      'React-based frontend for a responsive and interactive UI',
+      'Express.js and Node.js backend handling API endpoints',
+      'MongoDB for flexible and scalable data storage',
+      'Streamlined workflow for viewing and editing workout history',
+      'Modern UI design',
+      'RESTful APIs connecting frontend and backend'
     ],
     attributes: [
       {
@@ -198,50 +138,30 @@ export const works: Work[] = [
         value: 'Web Development',
       },
       {
-        name: 'Skills',
-        value: 'Typescript, Next.js & Tailwind CSS',
+        name: 'Technologies',
+        value: 'React, Node.js, Express.js, MongoDB',
       }
     ],
   },
 
   {
     id: 5,
-    title: 'Appointment Management System',
+    title: 'Java Appointment System',
     category: 'Desktop Application',
     thumbnailUrl: '/images/works/appointment-app.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `A JavaFX-based desktop application designed for managing appointments and customer records with multilingual support (English/French). Users can log in securely to view, create, update, and delete appointments, helping streamline scheduling and record management for businesses.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: '',
     featureList: [
-      '100% Fluid Responsive – Fits any device perfectly',
-      'Tested on real devices',
-      'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
-      'Retina Optimized',
-      'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
-      'Social Links',
-      'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
-      'Advanced Typography',
-      'Google Fonts – 600+ Font families available',
-      'Custom Font Support',
-      'Custom Page Templates',
-      'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
-      'Custom CSS Ready',
-      'HTML5 &amp; CSS3',
-      'Easy Customization With Variable Content Sections',
-      'Custom Build Theme &amp; Page Options',
-      'SEO Ready',
+      'JavaFX GUI for an intuitive desktop experience',
+      'Secure login and role-based access',
+      'Create, read, update, and delete (CRUD) operations for customers and appointments',
+      'Multilingual interface (English and French)',
+      'Integration with MySQL for data storage',
+      'Responsive scheduling view with time slots and appointment details',
+      'Robust error handling and form validation',
+      'Efficient navigation and user-friendly layout'
     ],
     attributes: [
       {
@@ -250,53 +170,34 @@ export const works: Work[] = [
       },
       {
         name: 'Category',
-        value: 'Web Development',
+        value: 'Desktop Application',
       },
       {
-        name: 'Skills',
-        value: 'Typescript, Next.js & Tailwind CSS',
+        name: 'Technologies',
+        value: 'Java, JavaFX, MySQL, IntelliJ IDEA',
       }
     ],
   },
   {
     id: 6,
-    title: 'Healthcare Analytics Dashboard',
-    category: 'Data Analysis',
+    title: 'Healthcare Data Analytics Dashboard',
+    category: 'Data Analytics',
     thumbnailUrl: '/images/works/Dashboard-1.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `An interactive dashboard designed to provide insights into hospital operations, patient admissions, and treatment outcomes. Utilizing Python-based preprocessing and Tableau for visualization, it helps healthcare professionals make data-driven decisions to improve patient care and resource management.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: '',
     featureList: [
-      '100% Fluid Responsive – Fits any device perfectly',
-      'Tested on real devices',
-      'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
-      'Retina Optimized',
-      'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
-      'Social Links',
-      'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
-      'Advanced Typography',
-      'Google Fonts – 600+ Font families available',
-      'Custom Font Support',
-      'Custom Page Templates',
-      'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
-      'Custom CSS Ready',
-      'HTML5 &amp; CSS3',
-      'Easy Customization With Variable Content Sections',
-      'Custom Build Theme &amp; Page Options',
-      'SEO Ready',
+      'Dynamic Tableau dashboards for real-time filtering and analysis',
+      'Line graphs tracking patient admissions over time',
+      'Histograms illustrating length-of-stay patterns by medical condition',
+      'Heat maps correlating medications and treatment effectiveness',
+      'Resource utilization insights for efficient hospital operations',
+      'Python scripts for data cleaning and ETL',
+      'In-depth reporting on patient demographics and medical outcomes',
+      'Responsive design for desktop and tablet viewing'
     ],
+  
     attributes: [
       {
         name: 'Client',
@@ -304,12 +205,12 @@ export const works: Work[] = [
       },
       {
         name: 'Category',
-        value: 'Web Development',
+        value: 'Data Analytics',
       },
       {
-        name: 'Skills',
-        value: 'Typescript, Next.js & Tailwind CSS',
-      },
+        name: 'Technologies',
+        value: 'Python, Tableau, Pandas, CSV, ETL',
+      }
     ],
   },
 ];

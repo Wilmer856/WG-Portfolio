@@ -44,11 +44,13 @@ const WorkDetail: React.FunctionComponent<Props> = ({ work }) => {
               </div>
             ))}
           </Slider>
-          <div className="mt-6 flex justify-center">
-            <Link href={work.previewUrl} className="btn">
-              Live Preview
-            </Link>
-          </div>
+          {work.previewUrl && 
+            <div className="mt-6 flex justify-center">
+              <Link href={work.previewUrl} className="btn">
+                Live Preview
+              </Link>
+            </div>
+          }
         </div>
 
         <div className="my-10">
