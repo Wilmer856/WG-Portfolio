@@ -81,7 +81,7 @@ export const works: Work[] = [
     thumbnailUrl: '/images/works/SafeHerd.png',
     description: `This project develops a machine learning model using Python and TensorFlow to classify animals as either domestic or predators. Leveraging AI algorithms and a training dataset of animal traits, the model provides real-time classification for educational and research purposes.`,
     publishedAt: '01 July 2022',
-    images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
+    images: ['/images/works/predator-detection-top.png', '/images/works/predator-detection-middle-1.png', '/images/works/predator-detection-middle-2.png', '/images/works/predator-detection-uses.png', '/images/works/predator-detection-images.png', '/images/works/predator-detection-accuracy.png', '/images/works/predator-detection-loss.png'],
     previewUrl: '',
     featureList: [
       'Trained using TensorFlow & Keras for accurate domestic/predator classification',
