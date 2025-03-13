@@ -29,6 +29,7 @@ export type Work = {
   thumbnailUrl: string;
   description?: string;
   images: string[];
+  video: string;
   previewUrl: string;
   publishedAt: string;
   featureList: string[];

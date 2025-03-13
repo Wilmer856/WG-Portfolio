@@ -9,6 +9,7 @@ export const works: Work[] = [
     description: `Spendo is a personal finance tracking web application designed to help users manage their expenses, track spending habits, and generate insightful reports.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/spendo-dashboard.png', '/images/works/spendo-add.png', '/images/works/spendo-reports-1.png', '/images/works/spendo-reports-2.png', '/images/works/spendo-transactions.png', '/images/works/spendo-profile.png'],
+    video: '8Zno0W9Lr9M?si=DGeWu7oMHYkzKbF5',
     previewUrl: '',
     featureList: [
       'User authentication with secure login and registration',
@@ -48,6 +49,7 @@ export const works: Work[] = [
     description: `Where in the World is a React-based web application that allows users to browse and explore detailed information about different countries, including population, region, capital, and neighboring nations. It also provides a dark/light mode toggle for improved accessibility and user preference.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
+    video: 'RUWldExFyes?si=38wp2kTNCLIlP3iK',
     previewUrl: '',
     featureList: [
     'Search for countries in real time',
@@ -82,6 +84,7 @@ export const works: Work[] = [
     description: `This project develops a machine learning model using Python and TensorFlow to classify animals as either domestic or predators. Leveraging AI algorithms and a training dataset of animal traits, the model provides real-time classification for educational and research purposes.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/predator-detection-top.png', '/images/works/predator-detection-middle-1.png', '/images/works/predator-detection-middle-2.png', '/images/works/predator-detection-uses.png', '/images/works/predator-detection-images.png', '/images/works/predator-detection-accuracy.png', '/images/works/predator-detection-loss.png'],
+    video: 'UAWyIFL0D0k?si=AWX3-zAhBUT4EWUs',
     previewUrl: '',
     featureList: [
       'Trained using TensorFlow & Keras for accurate domestic/predator classification',
@@ -117,6 +120,7 @@ export const works: Work[] = [
     description: `A dynamic web application built using the MERN stack (MongoDB, Express.js, React, Node.js) to help users log and manage workout routines. Users can easily add, view, update, and delete workout details, providing an efficient way to track and maintain fitness goals.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
+    video: 'Ndf_3rcombw?si=RIAt391xvh05D569',
     previewUrl: '',
     featureList: [
       'Create, read, update, and delete (CRUD) workout entries',
@@ -152,6 +156,7 @@ export const works: Work[] = [
     description: `A JavaFX-based desktop application designed for managing appointments and customer records with multilingual support (English/French). Users can log in securely to view, create, update, and delete appointments, helping streamline scheduling and record management for businesses.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
+    video: 'gqBlPdIghFE?si=-nOgpY5-kAarX-YU',
     previewUrl: '',
     featureList: [
       'JavaFX GUI for an intuitive desktop experience',
@@ -186,6 +191,7 @@ export const works: Work[] = [
     description: `An interactive dashboard designed to provide insights into hospital operations, patient admissions, and treatment outcomes. Utilizing Python-based preprocessing and Tableau for visualization, it helps healthcare professionals make data-driven decisions to improve patient care and resource management.`,
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
+    video: 'XnzfDlzrrs?si=T4jJ2xguduVgcCso',
     previewUrl: '',
     featureList: [
       'Dynamic Tableau dashboards for real-time filtering and analysis',

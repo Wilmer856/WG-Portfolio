@@ -1,3 +1,4 @@
+import VideoJS from '@/components/partials/VideoEmbed';
 import { works } from '@/data/works';
 import AppLayout from '@/layouts/AppLayout';
 import { Work } from '@/types';
@@ -5,6 +6,8 @@ import { GetServerSideProps } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Slider, { Settings } from 'react-slick';
+import { IKVideo } from 'imagekitio-next';
+import VideoEmbed from '@/components/partials/VideoEmbed';
 
 const settings: Settings = {
   dots: false,
@@ -19,6 +22,7 @@ type Props = {
   work: Work & {
     description: string;
     images: string[];
+    video: string; 
     publishedAt: string;
     previewUrl: string;
   };
@@ -37,13 +41,18 @@ const WorkDetail: React.FunctionComponent<Props> = ({ work }) => {
           </p>
         </div>
         <div className="mt-10">
-          <Slider {...settings}>
+          <VideoEmbed videoSrc={work.video}/>
+
+
+          {/* <VideoJS videoSrc={work.video}/> */}
+       
+          {/* <Slider {...settings}>
             {work.images.map((image, index) => (
               <div className="overflow-hidden rounded-xl" key={index}>
                 <Image src={image} height={720} width={1280} style={{ objectFit: 'cover' }} alt={work.title} />
               </div>
             ))}
-          </Slider>
+          </Slider> */}
           {work.previewUrl && 
             <div className="mt-6 flex justify-center">
               <Link href={work.previewUrl} className="btn">
