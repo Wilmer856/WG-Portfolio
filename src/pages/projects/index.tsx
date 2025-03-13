@@ -24,7 +24,7 @@ const work = () => {
               imageUrl={work.thumbnailUrl}
               category={work.category}
               title={work.title}
-              href={`/works/${work.id}`}
+              href={`/projects/${work.id}`}
             />
           ))}
         </div>

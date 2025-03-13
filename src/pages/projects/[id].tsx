@@ -22,7 +22,7 @@ type Props = {
   work: Work & {
     description: string;
     images: string[];
-    video: string; 
+    video: string;
     publishedAt: string;
     previewUrl: string;
   };
@@ -35,17 +35,15 @@ const WorkDetail: React.FunctionComponent<Props> = ({ work }) => {
         <div className="mt-24 flex flex-col items-center justify-center">
           <h1 className="text-center text-2xl font-semibold sm:text-3xl md:text-4xl">{work.title}</h1>
           <p className="mt-4 flex items-center text-gray-400">
-            <span>{work.publishedAt}</span>
             <span className="mx-2 h-1.5 w-1.5 rounded-full bg-primary-500"></span>
             <span>{work.category}</span>
           </p>
         </div>
         <div className="mt-10">
-          <VideoEmbed videoSrc={work.video}/>
-
+          <VideoEmbed videoSrc={work.video} />
 
           {/* <VideoJS videoSrc={work.video}/> */}
-       
+
           {/* <Slider {...settings}>
             {work.images.map((image, index) => (
               <div className="overflow-hidden rounded-xl" key={index}>
@@ -53,13 +51,13 @@ const WorkDetail: React.FunctionComponent<Props> = ({ work }) => {
               </div>
             ))}
           </Slider> */}
-          {work.previewUrl && 
+          {work.previewUrl && (
             <div className="mt-6 flex justify-center">
               <Link href={work.previewUrl} className="btn">
                 Live Preview
               </Link>
             </div>
-          }
+          )}
         </div>
 
         <div className="my-10">
@@ -89,7 +87,10 @@ const WorkDetail: React.FunctionComponent<Props> = ({ work }) => {
         <div className="mb-10 flex h-48 flex-col items-center justify-center">
           <h2 className="text-4xl font-semibold">Want to Build a project like this?</h2>
           <p className="mt-4">I can design and develop beautiful websites, apps for you</p>
-          <Link href="/contact" className="mt-5 rounded-full bg-primary-500 px-8 py-2 font-semibold tracking-wide text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200">
+          <Link
+            href="/contact"
+            className="mt-5 rounded-full bg-primary-500 px-8 py-2 font-semibold tracking-wide text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200"
+          >
             Start a project
           </Link>
         </div>
