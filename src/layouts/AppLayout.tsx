@@ -9,7 +9,7 @@ interface Props {
 }
 
 const AppLayout: React.FC<Props> = ({ children, title }) => {
-  const appName = process.env.NEXT_PUBLIC_APP_NAME || 'Pofology';
+  const appName = process.env.NEXT_PUBLIC_APP_NAME || 'WillWebDev';
   const pageTitle = title ? `${title} - ${appName}` : appName;
   return (
     <>
