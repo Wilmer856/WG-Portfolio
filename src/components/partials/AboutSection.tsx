@@ -2,7 +2,7 @@ import Button from '@/components/form/Button';
 import SectionTitle from '@/components/shared/SectionTitle';
 import { FiCoffee } from 'react-icons/fi';
 import { HiOutlineChartBar, HiOutlineFire, HiOutlineUsers } from 'react-icons/hi';
-import { DiJsBadge, DiJava, DiPython, DiReact, DiMysql, DiPostgresql, DiMongodb, DiGit, DiHtml5, DiCss3, DiUnitySmall } from "react-icons/di";
+import { DiJsBadge, DiJava, DiPython, DiReact, DiMysql, DiPostgresql, DiMongodb, DiGit, DiHtml5, DiCss3, DiUnitySmall } from 'react-icons/di';
 import Slider, { Settings } from 'react-slick';
 import Image from 'next/image';
 

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 import Button from '@/components/form/Button';
 import Input from '@/components/form/Input';
 import TextArea from '@/components/form/Textarea';

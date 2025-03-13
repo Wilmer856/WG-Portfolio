@@ -19,33 +19,42 @@ const Menu = () => {
           <span className="text-primary-500">.</span>
         </Link>
         <ul className="ml-auto hidden items-center md:flex">
-        <li>
-            <Link href="/" className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/',
-                  }
-                )}>
+          <li>
+            <Link
+              href="/"
+              className={classNames(
+                'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
+                {
+                  'text-primary-500': router.asPath == '/',
+                }
+              )}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link href="/works" className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/works',
-                  }
-                )}>
+            <Link
+              href="/works"
+              className={classNames(
+                'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
+                {
+                  'text-primary-500': router.asPath == '/works',
+                }
+              )}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link href="/contact" className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/contact',
-                  }
-                )}>
+            <Link
+              href="/contact"
+              className={classNames(
+                'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
+                {
+                  'text-primary-500': router.asPath == '/contact',
+                }
+              )}
+            >
               Contact
             </Link>
           </li>
@@ -99,7 +108,7 @@ const Menu = () => {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <div className="absolute top-0 right-0 -mr-12 pt-2">
+                <div className="absolute right-0 top-0 -mr-12 pt-2">
                   <button
                     type="button"
                     className="ml-1 flex h-10 w-10 items-center justify-center rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -117,10 +126,13 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
-                  <Link href="/contact" className={classNames(
-                        { 'text-primary-500': router.asPath == '/contact' },
-                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600 '
-                      )}>
+                  <Link
+                    href="/contact"
+                    className={classNames(
+                      { 'text-primary-500': router.asPath == '/contact' },
+                      'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600 '
+                    )}
+                  >
                     Contact
                   </Link>
                 </nav>

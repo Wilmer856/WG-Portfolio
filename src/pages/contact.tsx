@@ -1,7 +1,7 @@
 import PageTitle from '@/components/shared/PageTitle';
 import AppLayout from '@/layouts/AppLayout';
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 import Image from 'next/image';
 import Button from '@/components/form/Button';
 import Input from '@/components/form/Input';
@@ -19,9 +19,9 @@ const Contact = (props: Props) => {
   });
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
-    setFormData({ 
-      ...formData, 
-      [e.target.name]: e.target.value 
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
     });
   }
 
@@ -35,7 +35,13 @@ const Contact = (props: Props) => {
       message: formData.message,
     };
 
-    emailjs.send(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, templateParams, process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setFormData({ name: '', email: '', subject: '', message: '' });
@@ -44,7 +50,6 @@ const Contact = (props: Props) => {
         console.error('FAILED...', err);
       });
   }
-
 
   return (
     <AppLayout title="contact">
@@ -68,19 +73,22 @@ const Contact = (props: Props) => {
           </div>
           <div className="col-span-2">
             <div className="grid gap-8 md:grid-cols-2">
-              <Input placeholder="Your Name" name="name" value={formData.name} onChange={handleChange}/>
-              <Input placeholder="Email Address" name="email" value={formData.email} onChange={handleChange}/>
+              <Input placeholder="Your Name" name="name" value={formData.name} onChange={handleChange} />
+              <Input placeholder="Email Address" name="email" value={formData.email} onChange={handleChange} />
             </div>
 
             <div className="mt-8">
-              <Input placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange}/>
+              <Input placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} />
             </div>
             <div className="mt-8">
-              <TextArea placeholder="Message" name="message" value={formData.message} onChange={handleChange}/>
+              <TextArea placeholder="Message" name="message" value={formData.message} onChange={handleChange} />
             </div>
             <div className="mt-8">
               <form onSubmit={handleSubmit}>
-                <Button type="submit" className="mt-5 bg-primary-500 px-8 font-semibold text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200">
+                <Button
+                  type="submit"
+                  className="mt-5 bg-primary-500 px-8 font-semibold text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200"
+                >
                   Send Message
                 </Button>
               </form>

@@ -8,7 +8,14 @@ export const works: Work[] = [
     thumbnailUrl: '/images/works/spendo.png',
     description: `Spendo is a personal finance tracking web application designed to help users manage their expenses, track spending habits, and generate insightful reports.`,
     publishedAt: '01 July 2022',
-    images: ['/images/works/spendo-dashboard.png', '/images/works/spendo-add.png', '/images/works/spendo-reports-1.png', '/images/works/spendo-reports-2.png', '/images/works/spendo-transactions.png', '/images/works/spendo-profile.png'],
+    images: [
+      '/images/works/spendo-dashboard.png',
+      '/images/works/spendo-add.png',
+      '/images/works/spendo-reports-1.png',
+      '/images/works/spendo-reports-2.png',
+      '/images/works/spendo-transactions.png',
+      '/images/works/spendo-profile.png',
+    ],
     video: '8Zno0W9Lr9M?si=DGeWu7oMHYkzKbF5',
     previewUrl: '',
     featureList: [
@@ -23,7 +30,7 @@ export const works: Work[] = [
       'CSV export for transactions',
       'Seamless pagination for transaction history',
       'Dark mode support for better user experience',
-      'Bootstrap-powered UI for clean and modern layout'
+      'Bootstrap-powered UI for clean and modern layout',
     ],
     attributes: [
       {
@@ -37,7 +44,7 @@ export const works: Work[] = [
       {
         name: 'Technologies',
         value: 'Flask, Python, PostgreSQL, Bootstrap, Seaborn, Matplotlib, Pandas',
-      }
+      },
     ],
   },
 
@@ -52,14 +59,14 @@ export const works: Work[] = [
     video: 'RUWldExFyes?si=38wp2kTNCLIlP3iK',
     previewUrl: '',
     featureList: [
-    'Search for countries in real time',
-    'Filter countries by region',
-    'Detailed country view with extended info (capital, languages, currencies)',
-    'Navigate to neighboring countries seamlessly',
-    'Dark mode and light mode toggle',
-    'Responsive design for various screen sizes',
-    'Clean and intuitive user interface',
-    'REST Countries API integration'
+      'Search for countries in real time',
+      'Filter countries by region',
+      'Detailed country view with extended info (capital, languages, currencies)',
+      'Navigate to neighboring countries seamlessly',
+      'Dark mode and light mode toggle',
+      'Responsive design for various screen sizes',
+      'Clean and intuitive user interface',
+      'REST Countries API integration',
     ],
     attributes: [
       {
@@ -83,7 +90,15 @@ export const works: Work[] = [
     thumbnailUrl: '/images/works/SafeHerd.png',
     description: `This project develops a machine learning model using Python and TensorFlow to classify animals as either domestic or predators. Leveraging AI algorithms and a training dataset of animal traits, the model provides real-time classification for educational and research purposes.`,
     publishedAt: '01 July 2022',
-    images: ['/images/works/predator-detection-top.png', '/images/works/predator-detection-middle-1.png', '/images/works/predator-detection-middle-2.png', '/images/works/predator-detection-uses.png', '/images/works/predator-detection-images.png', '/images/works/predator-detection-accuracy.png', '/images/works/predator-detection-loss.png'],
+    images: [
+      '/images/works/predator-detection-top.png',
+      '/images/works/predator-detection-middle-1.png',
+      '/images/works/predator-detection-middle-2.png',
+      '/images/works/predator-detection-uses.png',
+      '/images/works/predator-detection-images.png',
+      '/images/works/predator-detection-accuracy.png',
+      '/images/works/predator-detection-loss.png',
+    ],
     video: 'UAWyIFL0D0k?si=AWX3-zAhBUT4EWUs',
     previewUrl: '',
     featureList: [
@@ -94,7 +109,7 @@ export const works: Work[] = [
       'Extensible architecture for additional animal classes in the future',
       'Detailed Jupyter Notebook documenting model design and performance',
       'REST API integration for easy front-end consumption',
-      'Scalable pipeline to handle additional training data'
+      'Scalable pipeline to handle additional training data',
     ],
     attributes: [
       {
@@ -108,7 +123,7 @@ export const works: Work[] = [
       {
         name: 'Technologies',
         value: 'Python, TensorFlow, Keras, Jupyter Notebook',
-      }
+      },
     ],
   },
 
@@ -130,7 +145,7 @@ export const works: Work[] = [
       'MongoDB for flexible and scalable data storage',
       'Streamlined workflow for viewing and editing workout history',
       'Modern UI design',
-      'RESTful APIs connecting frontend and backend'
+      'RESTful APIs connecting frontend and backend',
     ],
     attributes: [
       {
@@ -144,7 +159,7 @@ export const works: Work[] = [
       {
         name: 'Technologies',
         value: 'React, Node.js, Express.js, MongoDB',
-      }
+      },
     ],
   },
 
@@ -166,7 +181,7 @@ export const works: Work[] = [
       'Integration with MySQL for data storage',
       'Responsive scheduling view with time slots and appointment details',
       'Robust error handling and form validation',
-      'Efficient navigation and user-friendly layout'
+      'Efficient navigation and user-friendly layout',
     ],
     attributes: [
       {
@@ -180,7 +195,7 @@ export const works: Work[] = [
       {
         name: 'Technologies',
         value: 'Java, JavaFX, MySQL, IntelliJ IDEA',
-      }
+      },
     ],
   },
   {
@@ -201,9 +216,9 @@ export const works: Work[] = [
       'Resource utilization insights for efficient hospital operations',
       'Python scripts for data cleaning and ETL',
       'In-depth reporting on patient demographics and medical outcomes',
-      'Responsive design for desktop and tablet viewing'
+      'Responsive design for desktop and tablet viewing',
     ],
-  
+
     attributes: [
       {
         name: 'Client',
@@ -216,7 +231,7 @@ export const works: Work[] = [
       {
         name: 'Technologies',
         value: 'Python, Tableau, Pandas, CSV, ETL',
-      }
+      },
     ],
   },
 ];
