@@ -34,11 +34,11 @@ const Menu = () => {
           </li>
           <li>
             <Link
-              href="/works"
+              href="/projects"
               className={classNames(
                 'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
                 {
-                  'text-primary-500': router.asPath == '/works',
+                  'text-primary-500': router.asPath == '/projects',
                 }
               )}
             >
@@ -87,7 +87,10 @@ const Menu = () => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <DialogBackdrop className="fixed inset-0 bg-gray-600 bg-opacity-75" />
+            <DialogBackdrop
+              className="fixed inset-0 bg-gray-600 bg-opacity-75"
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+            />
           </TransitionChild>
           <TransitionChild
             as={Fragment}
@@ -126,6 +129,24 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
+                  <Link
+                    href="/"
+                    className={classNames(
+                      { 'text-primary-500': router.asPath == '/' },
+                      'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600 '
+                    )}
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    href="/projects"
+                    className={classNames(
+                      { 'text-primary-500': router.asPath == '/projects' },
+                      'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600 '
+                    )}
+                  >
+                    Projects
+                  </Link>
                   <Link
                     href="/contact"
                     className={classNames(
