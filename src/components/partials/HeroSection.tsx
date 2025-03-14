@@ -17,13 +17,7 @@ const HeroSection = () => {
         <h1 className="mt-4 text-3xl font-bold ">Wilmer Guzman</h1>
         <div className="mt-2 flex gap-1">
           {' '}
-          I'm a{' '}
-          <ReactTyped
-            strings={['Fullstack Developer', 'Game Developer']}
-            typeSpeed={60}
-            backSpeed={30}
-            loop
-          />
+          I'm a <ReactTyped strings={['Fullstack Developer', 'Game Developer']} typeSpeed={60} backSpeed={30} loop />
         </div>
         <div className="mt-4  flex gap-5">
           {/* <Link href="https://www.instragram.com" className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
@@ -32,13 +26,25 @@ const HeroSection = () => {
           {/* <Link href="https://www.twitter.com" className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
             <FiTwitter size={25} />
           </Link> */}
-          <Link href="https://www.facebook.com" className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+          <Link
+            href="mailto:joelguzman2468@gmail.com"
+            target="_blank"
+            className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+          >
             <FiMail size={25} />
           </Link>
-          <Link href="https://linkedin.com/in/wilmerguzman" className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+          <Link
+            href="https://linkedin.com/in/wilmerguzman"
+            target="_blank"
+            className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+          >
             <FiLinkedin size={25} />
           </Link>
-          <Link href="https://www.github.com/Wilmer856" className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+          <Link
+            href="https://www.github.com/Wilmer856"
+            target="_blank"
+            className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+          >
             <FiGithub size={25} />
           </Link>
         </div>
